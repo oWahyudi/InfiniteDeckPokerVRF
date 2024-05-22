@@ -1,0 +1,10 @@
+[package]
+name = "InfiniteDeckPokerVRF"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sha2 = "0.10"  
+rand = "0.8"
+schnorrkel = { git = "https://github.com/w3f/schnorrkel.git", branch = "master" }
+fastcrypto = "0.1"
